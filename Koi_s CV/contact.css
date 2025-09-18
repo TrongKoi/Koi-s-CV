@@ -1,0 +1,185 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,#000018,#0a0703);
+    /* background: linear-gradient(to top, #4b1e1e, #000018); */
+
+    color: white;
+    /* color: rgb(0, 0, 0); */
+    display:flex;
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+
+
+/* Header */
+header {
+  margin-top:0px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+  filter: drop-shadow(10px);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-family: "Quicksand", serif;
+  font-weight: 800;
+  font-style: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: relative;
+  left: 50px;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+}
+
+nav a{
+  font-size: 1.8rem;
+  color:white;
+  margin-right: 7rem;
+  font-family: "Quicksand", serif;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: relative;
+  right: 50px;
+  
+}
+
+nav a:hover{
+  transform: scale(2);
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+}
+
+nav a.active{
+  color:white;
+  border-bottom: 3px solid white;
+}
+
+
+/* Home content */
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem ;
+}
+
+
+
+.home .home-content p{
+    font-size: 50px;
+    font-weight: 675;
+    font-family: "Quicksand", serif;
+    line-height: 1.3;
+    position:fixed;
+    left: 390px;
+    color:white;
+    top: 365px;
+    
+}
+
+.home .home-content h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 675;
+    font-family: "Quicksand", serif;
+    position:fixed;
+    left: 130px;
+    top: 200px;   
+}
+
+
+.vertical-line {
+    width: 2px;                
+    height: 500px;             
+    background-color: white;   
+    position: fixed;           
+    left: 800px;                 
+    top: 220px;
+}
+
+.fa-facebook {
+    font-size: 70px;
+    position: fixed;
+    left: 850px;
+    top: 260px;
+}
+
+.fa-instagram{
+    font-size: 70px;
+    position: fixed;
+    left: 850px;
+    top: 425px;
+}
+
+.fa-envelope{
+    font-size: 70px;
+    position: fixed;
+    left: 850px;
+    top: 590px;
+}
+
+
+a i {
+    font-size: 40px;
+    color: white;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+a i:hover {
+    color: #0d6efd; /* Màu khi hover */
+}
+
+
+h5{
+    font-size: 40px;
+    font-weight: 675;
+    font-family: "Quicksand", serif;
+    line-height: 1.3;
+    position:fixed;
+    left: 1010px;
+    color:white;
+    top: 205px; 
+}
+
+h6{
+    font-size: 40px;
+    font-weight: 675;
+    font-family: "Quicksand", serif;
+    line-height: 1.3;
+    position:fixed;
+    left: 1010px;
+    color:white;
+    top: 340px; 
+}
+
+h7{
+    font-size: 40px;
+    font-weight: 675;
+    font-family: "Quicksand", serif;
+    line-height: 1.3;
+    position:fixed;
+    left: 1010px;
+    color:white;
+    top: 600px; 
+}
